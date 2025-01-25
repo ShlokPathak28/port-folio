@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <ul class="nav-links">
+        <li><a href="#about-me">About Me</a></li>
+        <li class="center"><a href="#skills">Skills</a></li>
+        <li class="center"><a href="#projects">Projects</a></li>
+        <li class="center"><a href="#contact-section">Contact</a></li>
+        <li class="center"><a href="https://drive.google.com/file/d/1klTzEfwd1BQD7TrWZ1K79jKnYs6J1gn4/view?usp=sharing" target="_blank">My Resume</a></li>
+    </ul>
+
+    <section style="height: 100vh;" id="about-me">
+        <div class="content">
+            <h1 class="slide-in-text">Hi, It's <span style="color: rgb(54, 190, 190);">Shlok</span></h1>
+            <p class="about-me-description , slide-in-text">I'm a passionate developer with experience in multiple technologies. I enjoy solving problems, building applications, and constantly learning new skills to improve my work. Welcome to my portfolio!</p>
+        </div>
+    </section>
+
+    <section style="min-height: 100vh;" id="skills">
+        <div class="skills-content">
+            <h2 class="slide-in-text">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>I can create structured, semantic, and accessible web pages using modern HTML standards. I also ensure compatibility across browsers and devices.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>I design visually appealing websites with CSS, using techniques like animations, transitions, Flexbox, and Grid for responsive layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>I can build interactive web applications with vanilla JavaScript, including DOM manipulation, event handling, and API integration.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Proficient in Python for backend development, data analysis, and scripting. I use libraries like Flask, Pandas, and NumPy for various projects.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>C</h3>
+                    <p>Experienced in writing efficient and optimized code in C, focusing on problem-solving, data structures, and algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section style="height: 100vh;" id="projects">
+        <div class="projects-content">
+            <h2 class="slide-in-text">Projects</h2>
+            <div class="projects-tiles">
+                <div class="tile">
+                    <div class="tile-image">
+                        <img src="/data/proj1.png" alt="">
+                    </div>
+                    <div class="tile-text">
+                        <h3 class="tile-title">Expense Tracker Project</h3>
+                        <p class="tile-description">This project is an expense tracker where users can track their spending habits, set budgets, and analyze their financial behavior over time. It uses JavaScript and local storage to save data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="contact-content">
+            <div class="contact-wrapper">
+                <div class="contact-image">
+                    <img src="data/contact.png" alt="Contact Image" />
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <h3 class="tile-title">Get in Touch</h3>
+                        <input type="text" name="name" placeholder="Name" required class="contact-input">
+                        <input type="email" name="email" placeholder="Email" required class="contact-input">
+                        <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                        <button type="submit" class="contact-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Shlok's Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/ShlokPathak28" target="_blank" rel="noopener noreferrer">
+                    <img src="data/github-logo.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/shlok-pathak/" target="_blank" rel="noopener noreferrer">
+                    <img src="data/linkedin-logo.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:shlokpathak0604@gmail.com">
+                    <img src="data/gmail.png" alt="Email">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
